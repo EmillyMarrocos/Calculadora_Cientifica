@@ -1,8 +1,8 @@
-cp01 = float(input("Digite o valor do cateto oposto: "))
-h01 = float(input("Digite a hipotenusa: "))
 
-def seno(cp, h):
+def seno():
+    cp = float(input("Digite o valor do cateto oposto: "))
+    h = float(input("Digite a hipotenusa: "))
     r = cp / h
-    print ("O seno é: ", r)
+    print ("O resultado é: ", r)
 
-seno(cp01, h01)
+seno()
