@@ -1,11 +1,11 @@
-def soma(a,b):
+def Soma(a,b):
     return a + b
 
-def subtracao(a,b):
+def Subtracao(a,b):
     return a - b
 
-def multiplicacao(a,b):
+def Multiplicacao(a,b):
     return a * b
 
-def divisao(a,b):
+def Divisao(a,b):
     return a / b

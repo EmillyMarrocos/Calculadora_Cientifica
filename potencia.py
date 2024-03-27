@@ -1,4 +1,4 @@
-def potencia(b, e):
+def Potencia():
 
     b01 = float(input("Digite o valor da base: "))
     e01 = float(input("Digite o valor do expoente: "))
@@ -10,7 +10,5 @@ def potencia(b, e):
         print ("O resultado é: ", b01)
 
     else:
-        r = b ** e
+        r = b01 ** e01
         print ("O resultado é: ", r)
-
-potencia(3, 2)
